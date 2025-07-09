@@ -20,6 +20,13 @@
 # production
 /build
 
+# Build output
+build/
+dist/
+
+# VSCode
+.vscode/
+
 # misc
 .DS_Store
 *.pem
@@ -39,3 +46,20 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# Misc
+*.local
+*.log
+*.tmp
+*.swp
+
+# Mac
+*.DS_Store
+
+# Windows
+Thumbs.db
+
+# IDEs
+.idea/
+*.sublime-workspace
+*.sublime-project
